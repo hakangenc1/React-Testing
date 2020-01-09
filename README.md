@@ -4,4 +4,4 @@
 
     yarn install
     yarn test
-    yarn test:cypress
+    yarn cypress

@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, fireEvent, cleanup } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import Counter from '../components/Counter';
 import TodoForm from '../components/TodoForm';
 
