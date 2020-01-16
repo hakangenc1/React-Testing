@@ -10,7 +10,16 @@
     "test": "jest --watchAll",
     "unittest": "jest __tests__/App.test.js -t",
     "build": "webpack --mode production",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "test:coverage": "jest --coverage",
+    "open:coverage": "start ./coverage/index.html"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
   },
   "dependencies": {
     "react": "^16.12.0",
